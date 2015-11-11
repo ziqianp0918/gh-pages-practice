@@ -5,12 +5,12 @@
 ---
 
 ### Directions
-1. Fork and clone this repository.
-2. Make your new branch with the command `git branch gh-pages`
-3. Open `.git/config`   
+*  Fork and clone this repository.
+*  Make your new branch with the command `git branch gh-pages`
+*  Open `.git/config`   
 (if you are using **cloud9**, type `c9 .git/config`)
 
-4. Add these two lines in the `[remote “origin”]` section:
+*  Add these two lines in the `[remote “origin”]` section:
 ```
 	push = +refs/heads/master:refs/heads/gh-pages
 	push = +refs/heads/master:refs/heads/master
@@ -23,7 +23,8 @@ it should now look like:
 	push = +refs/heads/master:refs/heads/gh-pages
 	push = +refs/heads/master:refs/heads/master
 ```
-5. If you haven't already, it would be a good idea to save steps 2/3/4 into a text file (such as `gh-pages.txt`) in the root directory of your workspace.
+*  If you haven't already, it would be a good idea to save a short reminder of the steps above into a text file (such as `gh-pages.txt`) in the root directory of your workspace.  
+
 ```
 ***COMMAND LINE***
 git branch gh-pages
@@ -33,4 +34,5 @@ c9 .git/config
 push = +refs/heads/master:refs/heads/gh-pages
 push = +refs/heads/master:refs/heads/master
 ```
-6. Your repo is now ready!  Customize the content of `index.html` and use `git push` to see your changes on `<your-username>.github.io/gh-pages-practice`
+
+*  Your repo is now ready!  Customize the content of `index.html` and use `git push` to see your changes on `<your-username>.github.io/gh-pages-practice`
