@@ -36,4 +36,4 @@ push = +refs/heads/master:refs/heads/gh-pages
 push = +refs/heads/master:refs/heads/master
 ```
 
-**Step 6:** Your repo is now ready!  Customize the content of `index.html` and next time you `push`, you will see your changes on `<your-username>.github.io/gh-pages-practice` (note, there might be a slight delay)
+**Step 6:** Your repo is now ready!  Customize the content of `index.html` (in **cloud9**, use `Preview` to see your changes), and next time you `push`, you will see your changes on `<your-username>.github.io/gh-pages-practice` (note, there might be a slight delay)
